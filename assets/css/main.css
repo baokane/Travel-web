@@ -278,8 +278,21 @@
 }
 
 .beach__content {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #9a9a9a;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+.beach__sub-content {
+    font-size: 1.6rem;
+    color: #9a9a9a;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+.beach__price {
+    margin: 37px 0;
 }
 
 .beach__price-old {
@@ -313,7 +326,6 @@
     padding: 15px 35px;
     color: #ffffff;
     border: none;
-    margin: 30px 0 0;
 }
 
 .beach__main-wrap {
@@ -327,6 +339,7 @@
 }
 
 .beach__time-wrap {
+    padding-left: 0;
     width: 492px;
     margin: 0 auto;
     height: 116px;
@@ -351,15 +364,15 @@
 
 .beach__time::after {
     position: absolute;
-    content: "/";
-    top: 3px;
-    right: -40px;
-    font-size: 60px;
-    color: #000;
-    opacity: 0.05;
-    font-weight: 100;
-    z-index: 9;
-    line-height: 60px;
+    content: '/';
+    top: -2px;
+    right: -44px;
+    font-size: 5.5rem;
+    color: #13b1cc;
+}
+
+.beach__time:last-child:after {
+    display: none;
 }
 
 .beach__time-current {
@@ -397,12 +410,14 @@
     margin: 20px 0;
     color: #a8a095;
     letter-spacing: 1px;
+    line-height: 23px;
 }
 
 .beach__view-more {
     font-size: 1.4rem;
     text-decoration: none;
     color: #14c8e8;
+    letter-spacing: 1px;
 }
 
 /* Descover */
