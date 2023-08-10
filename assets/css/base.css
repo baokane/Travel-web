@@ -23,11 +23,26 @@ html {
 .grid-row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -5px;
-    margin-right: -5px;
+    /* margin-left: -5px;
+    margin-right: -5px; */
 }
 
 .grid-column-4 {
     width: 33.33333%;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.grid-column-8 {
+    width: 66.66666%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.grid-column-6 {
+    width: 50%;
+}
+
+.grid-full-width {
+    width: 100%;
 }
